@@ -1,0 +1,154 @@
+[font]
+size = 18.0
+
+[window]
+opacity = 0.9
+title = "Alacritty"
+dynamic_padding = false
+
+[colors.primary]
+background = "#011627"
+foreground = "#d6deeb"
+
+[colors.cursor]
+cursor = "#d6deeb"
+text = "#011627"
+
+[colors.selection]
+background = "#1b90dd"
+
+[colors.normal]
+black = "#011627"
+blue = "#82aaff"
+cyan = "#21c7a8"
+green = "#22da6e"
+magenta = "#c792ea"
+red = "#ef5350"
+white = "#ffffff"
+yellow = "#c5e478"
+
+[colors.bright]
+black = "#575656"
+blue = "#82aaff"
+cyan = "#7fdbca"
+green = "#22da6e"
+magenta = "#c792ea"
+red = "#ef5350"
+white = "#ffffff"
+yellow = "#ffeb95"
+
+[font.normal]
+family = "ComicCode Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "ComicCode Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "ComicCode Nerd Font"
+style = "Italic"
+
+[font.bold_italic]
+family = "ComicCode Nerd Font"
+style = "Bold Italic"
+
+[terminal]
+
+[terminal.shell]
+program = "/opt/homebrew/bin/fish"
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 20
+y = 20
+
+[font.offset]
+x = 0
+y = 1
+
+[scrolling]
+history = 2000
+
+[env]
+TERM = "xterm-256color"
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "Copy"
+mods = "None"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "Paste"
+mods = "None"
+
+[[keyboard.bindings]]
+action = "PasteSelection"
+key = "Insert"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "ResetFontSize"
+key = "Key0"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Equals"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Plus"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "ToggleFullscreen"
+key = "F11"
+mods = "None"
+
+[[keyboard.bindings]]
+action = "ScrollPageUp"
+key = "PageUp"
+mode = "~Alt"
+mods = "None"
+
+[[keyboard.bindings]]
+action = "ScrollPageDown"
+key = "PageDown"
+mode = "~Alt"
+mods = "None"
+
+[[keyboard.bindings]]
+action = "ScrollToTop"
+key = "Home"
+mode = "~Alt"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "ScrollToBottom"
+key = "End"
+mode = "~Alt"
+mods = "Shift"

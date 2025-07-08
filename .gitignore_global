@@ -1,0 +1,17 @@
+# Backup Files
+*.swp
+*.bak
+*.tmp
+*.lock
+
+# MacOS System Files
+._*
+.Trashes
+.DS_Store
+.LSOverride
+.Spotlight-V100
+.DocumentRevisions-V100
+
+# Development Environments
+.idea/
+.vscode/

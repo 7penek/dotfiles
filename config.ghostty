@@ -1,0 +1,12 @@
+command = /opt/homebrew/bin/nu
+theme = Homebrew
+font-size = 18
+font-feature = -calt, -liga, -dlig
+font-family = "ComicCode Nerd Font"
+auto-update = download
+fullscreen = true
+window-decoration = true
+cursor-style = block
+cursor-style-blink = false
+shell-integration = fish
+shell-integration-features = no-cursor
